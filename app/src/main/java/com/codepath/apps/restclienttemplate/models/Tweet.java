@@ -4,6 +4,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.parceler.Parcel;
 
+// model is important for managing the data of the application
+
 @Parcel
 public class Tweet {
 
@@ -12,6 +14,7 @@ public class Tweet {
     public long uid; // database ID for the tweet
     public User user;
     public String createdAt;
+    public int characters;
 
     // want to be able to take in a JSON object and instansiate a tweet object from that
     // deserialize the JSON

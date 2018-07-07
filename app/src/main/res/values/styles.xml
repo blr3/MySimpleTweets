@@ -1,5 +1,9 @@
 <resources>
 
+    <color name="simple_white">#FFFFFF</color>
+    <color name="primary_blue">#2196F3</color>
+
+
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!--
             Theme customizations available in newer API levels can go in
@@ -11,6 +15,16 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
     </style>
+
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/primary_blue</item>
+        <!-- Support library compatibility -->
+        <item name="background">@color/primary_blue</item>
+
+    </style>
+
 
 </resources>

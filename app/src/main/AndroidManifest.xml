@@ -37,4 +37,6 @@
         <activity android:name=".ComposeActivity"></activity>
     </application>
 
+
+
 </manifest>
