@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Walkthrough](TwitterWT.gif)
+![Walkthrough](TwitWT.gif)
 
 GIF created with [Recordit](http://recordit.co/).
 
